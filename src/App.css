@@ -33,3 +33,16 @@
   background-color: yellow;
   grid-area: location;
 }
+
+@media screen and (max-width: 27rem) {
+  .App {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+      "header"
+      "banner"
+      "sponsored"
+      "events"
+      "location";
+  }
+}
